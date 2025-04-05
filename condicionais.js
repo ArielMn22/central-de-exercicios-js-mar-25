@@ -1,19 +1,20 @@
-let numero = prompt("Digite um número:"); // 0
+function exercicio01 () {
 
-if (numero > 0) {
+    let idade = prompt("Digite sua idade:");
 
-    console.log("Positivo.");
+    if (idade >= 18) {
 
-} else {
-
-    if (numero < 0) {
-
-        console.log("Negativo.");
+        alert("Você é maior de idade.");
 
     } else {
 
-        console.log("É zero.")
+        alert("Você é menor de idade.");
 
     }
 
 }
+
+function exercicio02 () {
+}
+
+exercicio01();
