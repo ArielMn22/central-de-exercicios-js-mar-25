@@ -14,7 +14,35 @@ function exercicio01 () {
 
 }
 
-function exercicio02 () {
+function intermediario01 () {
+
+    let n1 = Number(prompt("Digite um número: "));
+    let n2 = Number(prompt("Digite outro número: "));
+
+    let operacao = prompt("Digite a operação: ");
+
+    let resultado;
+
+    if (operacao == "+") {
+
+        resultado = n1 + n2;
+
+    } else if (operacao == "-") {
+
+        resultado = n1 - n2;
+
+    } else if (operacao == "*") {
+
+        resultado = n1 * n2;
+
+    } else if (operacao == "/") {
+
+        resultado = n1 / n2;
+
+    }
+
+    alert(resultado);
+
 }
 
-exercicio01();
+intermediario01();
