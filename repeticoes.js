@@ -38,3 +38,33 @@ function exemploDoWhile () {
     } while (contador <= 5);
 
 }
+
+function intermediario02 () {
+
+    let numeroAleatorio = Math.floor(Math.random() * (100 - 1) + 1);
+
+    let tentativa;
+
+    while (tentativa != numeroAleatorio) {
+
+        tentativa = prompt("Insira um número: ");
+
+        if (numeroAleatorio > tentativa) {
+
+            alert("Número aleatório é maior.");
+
+        } else if (numeroAleatorio < tentativa) {
+
+            alert("Número aleatório é menor.");
+
+        } else {
+
+            alert("Você acertou!");
+
+        }
+
+    }
+
+}
+
+intermediario02();
