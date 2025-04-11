@@ -1,4 +1,4 @@
-function exercicio01 () {
+function exercicioCondicionais01 () {
 
     let idade = prompt("Digite sua idade:");
 
@@ -11,6 +11,8 @@ function exercicio01 () {
         alert("Você é menor de idade.");
 
     }
+
+    gerarLog("Exercício de condicionais 01 executado. " + new Date().toLocaleDateString());
 
 }
 
@@ -71,4 +73,14 @@ function intermediario01comswitch () {
 
 }
 
-intermediario01();
+function gerarLog (textoDoLog) {
+
+    let container = document.querySelector(".logs-container");
+
+    let paragraph = document.createElement("p");
+
+    paragraph.innerHTML = textoDoLog;
+
+    container.appendChild(paragraph); // adiciona o paragrafo dentro de logsContainer
+
+}

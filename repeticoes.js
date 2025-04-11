@@ -67,4 +67,3 @@ function intermediario02 () {
 
 }
 
-intermediario02();
